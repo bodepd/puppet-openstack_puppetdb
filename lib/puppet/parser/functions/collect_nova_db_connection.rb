@@ -21,7 +21,7 @@ Example:
 
 It returns a string that can be used to configure the sql connection.
 
-'mysql://#{db_user}:#{db_passwd}@#{db_host}/#{db_name}'
+'mysql://\#{db_user}:\#{db_passwd}@\#{db_host}/\#{db_name}'
 
 EOT
 ) do |args|
